@@ -99,3 +99,13 @@ DESCRIBE location;
 DESCRIBE observation;
 SHOW CREATE TABLE observation;
 
+-- The aim of these commands is to modify the 'acq_date' column in the 'location' table of the 'nasa' database, converting it from a text type to a date type,
+-- to enable date-specific queries and improve data handling. Date Conversion: The command STR_TO_DATE(acq_date, '%d/%m/%Y') is used to convert the date strings 
+-- in 'acq_date' from their existing format ('DD/MM/YYYY') to the standard MySQL date format ('YYYY-MM-DD'). 
+
+UPDATE nasa.location
+SET acq_date = STR_TO_DATE(acq_date, '%d/%m/%Y')
+WHERE STR_TO_DATE(acq_date, '%d/%m/%Y') IS NOT NULL;
+ALTER TABLE nasa.location 
+CHANGE COLUMN acq_date acq_date DATE NULL DEFAULT NULL;
+
