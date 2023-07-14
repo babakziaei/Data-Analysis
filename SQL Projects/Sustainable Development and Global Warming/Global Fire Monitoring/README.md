@@ -46,14 +46,14 @@ STEP BY STEP PROCESS
    - The third highest rank (3) is labelled 'Moderate'.
    - All others are labelled 'Low'.
 
-7. Finally, create a report showing for each region, satellite, time of day (day or night), and fire type, the year, month, monthly fire count, average monthly brightness, brightness in the mid-infrared wavelength, fire radiative power, confidence, and the labels assigned to brightness, fire radiative power, and confidence levels.
+7. Finally, create a report showing each region, satellite, time of day (day or night), and fire type, the year, month, monthly fire count, average monthly brightness, brightness in the mid-infrared wavelength, fire radiative power, confidence, and the labels assigned to brightness, fire radiative power, and confidence levels.
 
 Remember, the specifics might change depending on the available data and the specific requirements of the project.
 
 
 DATA PREPARATION
 
-Goal and Problem Statement for the First Set of SQL Commands:
+Objectives and Problem Statement for the First Set of SQL Commands:
 
 
 Problem Statement: The key problem these commands are attempting to solve is the need to store and manage large volumes of observational and locational data from CSV files in a structured manner in a MySQL database. The challenge is to ensure that data from each CSV file is imported correctly into its corresponding table. There may be potential issues with data types, file paths, and file permissions that could complicate the data import process.
@@ -62,11 +62,11 @@ Goal: The goal of this first set of SQL commands is to create two tables named "
 
 
 
-Goal and Problem Statement for the Second Set of SQL Commands:
+Objectives and Problem Statement for the Second Set of SQL Commands:
 
 Problem Statement: The primary problem these commands aim to solve is the lack of unique identifiers and relationships between the "observation" and "location" tables. Unique identifiers are needed to efficiently query and manage data, while relationships between tables are crucial for data integrity and consistency. Challenges may arise in ensuring that each row in both tables is assigned a unique identifier and that the foreign key relationship is correctly set up to ensure data integrity.
 
-Goal: The goal of the second set of SQL commands is to add primary key and foreign key constraints to the "observation" and "location" tables. Primary key columns 'location_id' and 'observation_id' are added and populated with unique identifiers for each row. A foreign key constraint is added to the "observation" table that references the 'location_id' in the "location" table.
+Objectives: The second set of SQL commands aims to add primary key and foreign key constraints to the "observation" and "location" tables. Primary key columns 'location_id' and 'observation_id' are added and populated with unique identifiers for each row. A foreign key constraint is added to the "observation" table that references the 'location_id' in the "location" table.
 
 
 
