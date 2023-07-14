@@ -3,6 +3,7 @@
 -- restructuring the tables by dropping, adding, and modifying columns and constraints, and finally, converting a specific text column into a date format.
 -- These steps collectively enhance the usability and query performance of the data stored in the 'nasa' schema.
 
+-- THE FIRST SET
 
 --The given code is creating two database tables for storing data related to NASA observations and locations.
 CREATE TABLE nasa.observation (
@@ -44,7 +45,7 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-
+-- THE SECOND SET
 
 -- The script alters the 'nasa' schema by removing specific columns and foreign key constraints, modifying the structure of 'observation' and 'location' tables.
 
