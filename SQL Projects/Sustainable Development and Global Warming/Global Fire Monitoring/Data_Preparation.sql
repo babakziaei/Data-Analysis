@@ -28,12 +28,12 @@ CREATE TABLE nasa.location (
     daynight TEXT
 );
 
+*/
+ The provided SQL code retrieves the system variable 'secure_file_priv' to determine the directory for file access. 
+ It then loads data from 'observation.csv' and 'location.csv' into the 'nasa.observation' and 'nasa.location' tables, respectively. 
 
--- The provided SQL code retrieves the system variable 'secure_file_priv' to determine the directory for file access. 
--- It then loads data from 'observation.csv' and 'location.csv' into the 'nasa.observation' and 'nasa.location' tables, respectively. 
-
--- SHOW VARIABLES LIKE 'secure_file_priv';
-
+ SHOW VARIABLES LIKE 'secure_file_priv';
+*/
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/observation.csv'
 INTO TABLE nasa.observation
@@ -47,30 +47,31 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
--- THE SECOND SET
+/*
+ THE SECOND SET
 
--- The script alters the 'nasa' schema by removing specific columns and foreign key constraints, modifying the structure of 'observation' and 'location' tables.
+ The script alters the 'nasa' schema by removing specific columns and foreign key constraints, modifying the structure of 'observation' and 'location' tables.
 
--- SELECT 
---  TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
--- FROM
---   INFORMATION_SCHEMA.KEY_COLUMN_USAGE
--- WHERE
-  -- REFERENCED_TABLE_SCHEMA = 'nasa' AND
---   REFERENCED_TABLE_NAME = 'location' AND
---  TABLE_NAME = 'observation';
--- ALTER TABLE nasa.observation DROP FOREIGN KEY observation_ibfk_1;
-
-
-
--- ALTER TABLE nasa.location DROP COLUMN location_id;
--- ALTER TABLE nasa.observation DROP COLUMN location_id;
--- ALTER TABLE nasa.observation DROP COLUMN observation_id;
+ SELECT 
+  TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+ FROM
+  INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+ WHERE
+  REFERENCED_TABLE_SCHEMA = 'nasa' AND
+  REFERENCED_TABLE_NAME = 'location' AND
+  TABLE_NAME = 'observation';
+ ALTER TABLE nasa.observation DROP FOREIGN KEY observation_ibfk_1;
 
 
--- This script adds new columns to the 'location' and 'observation' tables in the 'nasa' schema, sets them as primary keys, 
--- and establishes a foreign key relationship between them. The new columns are also populated with sequentially increasing integer values.
 
+ ALTER TABLE nasa.location DROP COLUMN location_id;
+ ALTER TABLE nasa.observation DROP COLUMN location_id;
+ ALTER TABLE nasa.observation DROP COLUMN observation_id;
+
+
+ This script adds new columns to the 'location' and 'observation' tables in the 'nasa' schema, sets them as primary keys, 
+ and establishes a foreign key relationship between them. The new columns are also populated with sequentially increasing integer values.
+*/
 
 ALTER TABLE nasa.location ADD COLUMN location_id INT;
 ALTER TABLE nasa.observation ADD COLUMN observation_id INT;
@@ -101,11 +102,11 @@ ALTER TABLE nasa.observation ADD FOREIGN KEY (location_id) REFERENCES nasa.locat
 DESCRIBE location;
 DESCRIBE observation;
 SHOW CREATE TABLE observation;
-
--- The aim of these commands is to modify the 'acq_date' column in the 'location' table of the 'nasa' database, converting it from a text type to a date type,
--- to enable date-specific queries and improve data handling. Date Conversion: The command STR_TO_DATE(acq_date, '%d/%m/%Y') is used to convert the date strings 
--- in 'acq_date' from their existing format ('DD/MM/YYYY') to the standard MySQL date format ('YYYY-MM-DD'). 
-
+/*
+ The aim of these commands is to modify the 'acq_date' column in the 'location' table of the 'nasa' database, converting it from a text type to a date type,
+ to enable date-specific queries and improve data handling. Date Conversion: The command STR_TO_DATE(acq_date, '%d/%m/%Y') is used to convert the date strings 
+ in 'acq_date' from their existing format ('DD/MM/YYYY') to the standard MySQL date format ('YYYY-MM-DD'). 
+*/
 UPDATE nasa.location
 SET acq_date = STR_TO_DATE(acq_date, '%d/%m/%Y')
 WHERE STR_TO_DATE(acq_date, '%d/%m/%Y') IS NOT NULL;
