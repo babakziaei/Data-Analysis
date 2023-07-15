@@ -5,7 +5,7 @@
 
 We have data about vehicle emissions in Canada, spanning multiple vehicle classes, makes, and fuel consumption ratings. Our task is to analyze this data to derive insights regarding average fuel consumption and CO2 emissions across various vehicle classes. Additionally, we want to understand the range of these factors within each class, identify those with significant variability, and sort them based on their average fuel consumption and CO2 emissions.
 
-# Objectives
+## Objectives
 
 1. Determine the number of vehicles in each vehicle class.
 2. Calculate the average, minimum, and maximum fuel consumption and CO2 emissions for each vehicle class.
@@ -14,7 +14,7 @@ We have data about vehicle emissions in Canada, spanning multiple vehicle classe
 5. Filter out only those classes with significant ranges (greater than 5.0 for fuel consumption or greater than 50.0 for CO2 emissions).
 6. Sort the resulting data by average fuel consumption and CO2 emissions in ascending order.
 
-# Step-by-step Explanation
+## Step-by-step Explanation
 
 1. Select the necessary columns from the joined tables 'co2_emissions_canada_vehicle' and 'co2_emissions_canada_emission' based on the 'make' column.
 
