@@ -1,4 +1,6 @@
-                                     ###Product-Specific User Session Analysis with SQL
+# Product-Specific User Session Analysis with SQL
+
+Remember, the actual appearance of this title will depend on where you paste this markdown text. Not all text editors support markdown. In ones that do, this will appear as a large, bold heading.
 
 **Description**: This SQL script provides a comprehensive analysis of user sessions related to two specific products, '/the-original-mr-fuzzy' and '/the-forever-love-bear'. It aims to understand user engagement by tracking their journey from visiting product pages to potentially completing a purchase.
 
