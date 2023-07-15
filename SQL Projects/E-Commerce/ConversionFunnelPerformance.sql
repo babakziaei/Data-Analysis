@@ -1,4 +1,4 @@
-                               "Conversion Funnel Performance Analysis via SQL Pipeline"
+--                               "Conversion Funnel Performance Analysis via SQL Pipeline"
 
 
 create temporary table session_level_made_it_flags_demo
