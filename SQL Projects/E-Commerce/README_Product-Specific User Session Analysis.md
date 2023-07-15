@@ -13,3 +13,7 @@ The analysis proceeds in four distinct steps:
 **Step 4: Product-Centric Funnel Calculation**: In the final step, the script calculates the conversion funnel for each subsequent page, relative to the main product pages. This funnel calculation does not depend on the sequence of page visits within the session. This provides us with an understanding of the conversion rate for each stage of the purchasing process, independent of the previous page visited.
 
 By closely examining user interactions with the product pages and subsequent pages, this script can inform product marketing strategies, help identify possible improvements in user flow, and contribute to overall website optimization efforts.
+
+
+![image](https://github.com/babakziaei/Data-Analysis/assets/126654048/08d042a5-4399-4146-a507-f105952f1a10)
+
