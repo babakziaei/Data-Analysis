@@ -29,3 +29,4 @@ We have data about vehicle emissions in Canada, spanning multiple vehicle classe
 6. Finally, sort the resulting data in ascending order by the average fuel consumption and CO2 emissions using the ORDER BY clause.
 
 ![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/698ba4c6-f7b0-428f-979c-a89f001c8951)
+#### DATASET USED: https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles
