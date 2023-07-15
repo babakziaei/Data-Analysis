@@ -94,4 +94,5 @@ This table is dedicated to storing data related to the locations of the fire obs
 Both of these tables collectively create a structured environment for storing and organizing data pertinent to NASA's fire observations and their corresponding locations. This architecture aids in efficient querying, data integrity, and analysis.
 
 
+![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/0309173b-6e47-4544-8346-58a1ae9a4966)
 
