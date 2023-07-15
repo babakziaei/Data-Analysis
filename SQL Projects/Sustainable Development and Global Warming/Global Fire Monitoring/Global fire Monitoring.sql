@@ -1,3 +1,6 @@
+-- This code utilizes SQL's powerful OVER and PARTITION BY functions to perform complex data analysis and manipulation.
+
+
 USE nasa;
 
 
