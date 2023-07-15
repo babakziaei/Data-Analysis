@@ -39,11 +39,6 @@ Ln(VALUE) = β0 + β1METRO3-1 + β2REGION:1 + β3LN_LMED  + β4LN_FMR + β5LN_IP
 
 
 
-
-# A Detailed Regression Analysis on the Market Value of Housing Units
-
-This report covers a comprehensive regression analysis on the market value of housing units using data for the year 2013. The goal is to determine the most influential factors that affect the market value of a housing unit, as well as how these factors interrelate. 
-
 ## Model Description
 
 We built a multiple regression model to predict the logarithm of the market value of a housing unit (`Ln(VALUE)`), using 15 different predictor variables: 
@@ -67,47 +62,5 @@ We presented the model equation in this form:
 
 Ln(VALUE) = β0 + β1METRO3-1 + β2REGION:1 + β3LN_LMED  + β4LN_FMR + β5LN_IPOV + βBEDRMS + β7BUILT + β8ROOMS + β9PER + β10LN_ZSMHC + β11LN_ZINC2 + β12LN_OTHERCOST + β13LN_UTILITY + β14LN_COST06 + β15AGE1
 
-## Analysis Results
 
-Here are the results of our analysis:
 
-Multiple R (Correlation Coefficient): 0.989729888
-This indicates a strong positive relationship between the predicted (model) and observed (actual) values.
-
-R Square: 0.979565251
-This means that 97.96% of the variation in the `Ln(VALUE)` can be explained by our model.
-
-Adjusted R Square: 0.979555089
-This is a more accurate version of R square as it adjusts for the number of predictors in the model.
-
-Standard Error: 0.113240197
-This measures the average distance that the observed values fall from the regression line.
-
-Observations: 30177
-This is the total number of data points used in the model.
-
-F-value: 96387.01892
-This tells us that at least one of the predictor variables is statistically significant.
-
-Significance F: 0
-This confirms the significance of our model and the validity of our F-value.
-
-## Coefficients Interpretation
-
-Refer to the table to see all the coefficients, their standard errors, t-Statistics, and p-values.
-
-Every coefficient represents the change in the `Ln(VALUE)` for a one unit change in the corresponding predictor, holding other predictors constant. For example, if `METRO3-1` (representing the central city area) increases by 1, `Ln(VALUE)` decreases by 0.012059758 units, holding other variables constant.
-
-The P-value associated with each coefficient tests the null hypothesis that the coefficient is equal to zero (no effect). A low p-value (< 0.05) indicates that you can reject the null hypothesis.
-
-As per our results, all the variables except `LN_IPOV` and `ROOMS` are statistically significant at a 95% confidence level. 
-
-## Conclusion and Discussion
-
-Our model is highly reliable with a 97.96% R-Square, indicating it accurately captures the factors affecting the market value of housing units. This analysis provides insights on the significant impact of geographical location, regional classification, area median income, fair market rent, poverty income threshold, number of bedrooms, year built, total rooms, household size, monthly housing costs, annual household income, 'other' costs, utility costs, mortgage payments, and the age of the head of household on the housing market value.
-
-It's worth noting that the variables `METRO3-1`, `LN_FMR`, `ROOMS`, `PER`, `LN_ZSMHC`, `LN_UTILITY`, and `AGE1` have negative coefficients, indicating that an increase in these variables results in a decrease in the market value, holding other variables constant. On the other hand, the variables `REGION:1`, `LN_LMED`, `LN_IPOV`, `BEDRMS`, `BUILT`, `LN_ZINC2`, `LN_OTHERCOST`, and `LN_COST06` have positive coefficients, indicating that an increase in these variables results in an increase in the market value, holding other variables constant.
-
-Note that our regression model has used logarithmic transformations of many of the 'X' variables, so interpretations of the coefficients will follow semi-log or log-log interpretations.
-
-Please review the detailed interpretations and insights above for a comprehensive understanding of the factors contributing to the market value of housing units.
