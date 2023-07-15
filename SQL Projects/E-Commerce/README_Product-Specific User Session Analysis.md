@@ -1,4 +1,4 @@
-                                     "Product-Specific User Session Analysis with SQL"
+                                     ##"Product-Specific User Session Analysis with SQL"
 
 **Description**: This SQL script provides a comprehensive analysis of user sessions related to two specific products, '/the-original-mr-fuzzy' and '/the-forever-love-bear'. It aims to understand user engagement by tracking their journey from visiting product pages to potentially completing a purchase.
 
