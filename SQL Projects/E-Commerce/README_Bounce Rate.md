@@ -1,16 +1,29 @@
-         "Bounce Rate Analysis: Comparative Analysis of Landing Page Performance in a 50/50 Traffic Distribution Scenario"
+# Bounce Rate Analysis: Landing Page Performance Assessment under a 50/50 Traffic Distribution Scenario
 
-This SQL script is designed to analyze the performance of landing pages ('/home' and 'lander-1') under a 50/50 traffic distribution scenario for a specified time period. The process is split into four distinct steps:
+## Overview:
 
-Step 1: Identifies the first website_pageview_id for the sessions that meet our criteria (those created before '2012-07-28', with a website_pageview_id larger than 23504, and coming from a specific campaign on Google Search). This information is stored in a temporary table named first_pageviews_demo.
+The provided SQL script is engineered to evaluate the efficacy of two landing pages ('/home' and 'lander-1') in a context where traffic is evenly distributed between them (50/50 scenario). The script's execution progresses through four distinct steps, effectively leading to a robust understanding of user engagement and landing page retention. 
 
-Step 2: Using the data collected in the previous step, it associates each session with its respective landing page. This association is done by matching the minimum website_pageview_id found previously with the website_pageview_id from the website_pageviews table. The resulting data is saved in a new temporary table called session_w_landing_page_demo.
+## Process Breakdown:
 
-Step 3: This step identifies 'bounce' sessions, which are sessions where only one page is viewed. It uses the data from session_w_landing_page_demo and website_pageviews tables to count the number of pages viewed in each session. Sessions where only one page was viewed are considered 'bounces' and this information is stored in a new temporary table, bounced_sessions_only.
+### Step 1: 
 
-Step 4: The final step aggregates the data to calculate the total number of sessions and bounced sessions for each landing page. The script calculates a 'bounce rate' by dividing the number of bounced sessions by the total number of sessions for each landing page. The results are displayed for further analysis.
+This step isolates the initial `website_pageview_id` for the sessions meeting our predefined criteria. To qualify, the sessions should be initiated prior to '2012-07-28', associated with a `website_pageview_id` higher than 23504, and originate from a particular Google Search campaign. The outcome of this process is temporarily housed in a table named `first_pageviews_demo`.
 
-This script heavily relies on the GROUP BY clause and temporary tables for its multi-step analytical process. The conclusions drawn from this data can help understand the effectiveness of different landing pages in terms of user engagement and retention.
+### Step 2: 
 
+Utilizing the data compiled in the prior step, this phase correlates each session with the appropriate landing page. The association process occurs through matching the minimum `website_pageview_id` acquired earlier with the `website_pageview_id` in the `website_pageviews` table. The outcome is preserved in a fresh temporary table known as `session_w_landing_page_demo`.
 
-![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/6a693d7d-ba2c-44c6-90e2-1168394d9434)
+### Step 3: 
+
+Here, 'bounce' sessions are identified, defined as sessions during which only a single page is viewed. It employs the data from `session_w_landing_page_demo` and `website_pageviews` tables to tally the number of pages accessed in each session. Sessions wherein just one page was viewed are considered 'bounces', and this data is kept in another temporary table called `bounced_sessions_only`.
+
+### Step 4: 
+
+In the final step, the gathered data is aggregated to calculate the total count of sessions and bounced sessions for each landing page. The script then computes a 'bounce rate' by dividing the number of bounced sessions by the total sessions for each landing page. The resultant values are displayed for comprehensive analysis.
+
+This SQL script heavily capitalizes on the `GROUP BY` clause and temporary tables to implement its multi-stage analytical process. The insights derived from the execution of this script can provide valuable understanding of the comparative effectiveness of different landing pages in retaining user engagement.
+
+You can view the SQL script flow diagram in the image below for a better understanding of the process:
+
+![Script Flow Diagram](https://github.com/babakziaei/Data-Analysis/assets/126654048/6a693d7d-ba2c-44c6-90e2-1168394d9434)
