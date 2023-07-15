@@ -1,7 +1,7 @@
 
 # Vehicle Emissions Analysis: Fuel Consumption and CO2 Emissions Range in Canadian Vehicle Classes
 
-# Problem Statement
+## Problem Statement
 
 We have data about vehicle emissions in Canada, spanning multiple vehicle classes, makes, and fuel consumption ratings. Our task is to analyze this data to derive insights regarding average fuel consumption and CO2 emissions across various vehicle classes. Additionally, we want to understand the range of these factors within each class, identify those with significant variability, and sort them based on their average fuel consumption and CO2 emissions.
 
