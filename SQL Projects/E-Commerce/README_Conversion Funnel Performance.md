@@ -8,7 +8,7 @@ Step 1: Session Selection and Pageviews Retrieval: This segment of the code sele
 
 Step 2: Funnel Step Classification: Each pageview is categorized based on its location in the conversion funnel, from the landing page through to the 'Thank You' page displayed post-order completion.
 
-** Step 3: Session-Level Conversion Funnel Generation: A temporary table is generated to store the furthest stage each session reached in the funnel. This action condenses page-level data into a more compact, session-level perspective, thus facilitating further analysis.
+**Step 3: Session-Level Conversion Funnel Generation: A temporary table is generated to store the furthest stage each session reached in the funnel. This action condenses page-level data into a more compact, session-level perspective, thus facilitating further analysis.
 
 Step 4: Funnel Performance Assessment: The concluding stage includes summarizing the session-level data to extract funnel performance metrics. This encompasses the count of sessions reaching each stage and the click-through rate from one stage to the succeeding one.
 
