@@ -11,3 +11,6 @@ Step 3: This step identifies 'bounce' sessions, which are sessions where only on
 Step 4: The final step aggregates the data to calculate the total number of sessions and bounced sessions for each landing page. The script calculates a 'bounce rate' by dividing the number of bounced sessions by the total number of sessions for each landing page. The results are displayed for further analysis.
 
 This script heavily relies on the GROUP BY clause and temporary tables for its multi-step analytical process. The conclusions drawn from this data can help understand the effectiveness of different landing pages in terms of user engagement and retention.
+
+
+![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/6a693d7d-ba2c-44c6-90e2-1168394d9434)
