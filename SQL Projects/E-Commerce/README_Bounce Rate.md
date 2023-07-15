@@ -1,4 +1,4 @@
-         Bounce Rate Analysis: Comparative Analysis of Landing Page Performance in a 50/50 Traffic Distribution Scenario
+         "Bounce Rate Analysis: Comparative Analysis of Landing Page Performance in a 50/50 Traffic Distribution Scenario"
 
 This SQL script is designed to analyze the performance of landing pages ('/home' and 'lander-1') under a 50/50 traffic distribution scenario for a specified time period. The process is split into four distinct steps:
 
