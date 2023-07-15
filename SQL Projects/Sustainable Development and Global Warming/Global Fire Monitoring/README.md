@@ -58,34 +58,40 @@ The task at hand involves accurately identifying, classifying, and understanding
 
 
 
-The given code is creating two database tables for storing data related to NASA observations and locations.
-The first table is named "nasa.observation" and has the following columns:
+# Database Structure for NASA Fire Observations and Locations
 
+## Description:
 
-brightness (data type: DOUBLE): Represents the brightness value of the observation.
-scan (data type: DOUBLE): Indicates the scan value of the observation.
-track (data type: DOUBLE): Represents the track value of the observation.
-instrument (data type: TEXT): Stores the instrument used for the observation.
-confidence (data type: INT): Represents the confidence level associated with the observation.
-version (data type: DOUBLE): Indicates the version of the observation.
-bright_t31 (data type: DOUBLE): Represents the bright_t31 value of the observation.
-frp (data type: DOUBLE): Indicates the frp (fire radiative power) value of the observation.
-type_1 (data type: INT): Represents the type of the observation.
+The given code constructs two relational database tables intended to store data pertinent to NASA's fire observations and associated locations. 
 
-The second table is named "nasa.location" and has the following columns:
+## Table Structures:
 
-latitude (data type: DOUBLE): Represents the latitude of the location.
-longitude (data type: DOUBLE): Indicates the longitude of the location.
-acq_date (data type: TEXT): Stores the acquisition date of the observation.
-acq_time (data type: INT): Represents the acquisition time of the observation.
-satellite (data type: TEXT): Indicates the satellite used for the observation.
-daynight (data type: TEXT): Represents whether the observation was made during the day or night.
+### 1. `nasa.observation`
 
+This table is designated for storing data related to the fire observations, and it comprises the following columns:
 
-These tables provide a structure for storing and organizing data related to NASA observations and their corresponding locations.
+- `brightness` (data type: DOUBLE): This represents the brightness value of a particular observation.
+- `scan` (data type: DOUBLE): This indicates the scan value for the observation.
+- `track` (data type: DOUBLE): This column contains the track value for the observation.
+- `instrument` (data type: TEXT): This stores the name or type of instrument used for the observation.
+- `confidence` (data type: INT): This column holds the confidence level associated with the observation.
+- `version` (data type: DOUBLE): This indicates the version of the observation data.
+- `bright_t31` (data type: DOUBLE): This holds the value of bright_t31 for the observation.
+- `frp` (data type: DOUBLE): This column contains the fire radiative power (frp) value of the observation.
+- `type_1` (data type: INT): This column signifies the type of the observation.
 
+### 2. `nasa.location`
 
+This table is dedicated to storing data related to the locations of the fire observations, and it includes the following columns:
 
+- `latitude` (data type: DOUBLE): This represents the latitude of the location where the observation was made.
+- `longitude` (data type: DOUBLE): This indicates the longitude of the location where the observation took place.
+- `acq_date` (data type: TEXT): This column stores the acquisition date of the observation.
+- `acq_time` (data type: INT): This represents the acquisition time of the observation.
+- `satellite` (data type: TEXT): This indicates the satellite that was used for the observation.
+- `daynight` (data type: TEXT): This column specifies whether the observation was made during the day or at night.
+
+Both of these tables collectively create a structured environment for storing and organizing data pertinent to NASA's fire observations and their corresponding locations. This architecture aids in efficient querying, data integrity, and analysis.
 
 
 
