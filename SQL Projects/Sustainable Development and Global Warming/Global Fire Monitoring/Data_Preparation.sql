@@ -1,11 +1,13 @@
--- This README outlines the process of preparing a dataset for further analysis.
--- The procedures involve creating specific tables within the 'nasa' schema, loading relevant data from CSV files into these tables,
--- restructuring the tables by dropping, adding, and modifying columns and constraints, and finally, converting a specific text column into a date format.
--- These steps collectively enhance the usability and query performance of the data stored in the 'nasa' schema.
+/* This README outlines the process of preparing a dataset for further analysis.
+ The procedures involve creating specific tables within the 'nasa' schema, loading relevant data from CSV files into these tables,
+ restructuring the tables by dropping, adding, and modifying columns and constraints, and finally, converting a specific text column into a date format.
+ These steps collectively enhance the usability and query performance of the data stored in the 'nasa' schema.
 
--- THE FIRST SET
+ THE FIRST SET
 
---The given code is creating two database tables for storing data related to NASA observations and locations.
+The given code is creating two database tables for storing data related to NASA observations and locations.
+*/
+
 CREATE TABLE nasa.observation (
     brightness DOUBLE,
     scan DOUBLE,
