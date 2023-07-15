@@ -13,3 +13,7 @@ Step 3: Session-Level Conversion Funnel Construction: A temporary table is creat
 Step 4: Funnel Performance Evaluation: The final step involves summarizing the session-level data to derive funnel performance metrics. This includes the number of sessions reaching each stage and the click-through rate from each stage to the next.
 
 By breaking down the conversion process in such detail, this script provides comprehensive insights into user behavior at each stage of the conversion funnel. These insights can guide us in optimizing our website design and improving overall user experience.
+
+
+![image](https://github.com/babakziaei/Data-Analysis/assets/126654048/2d243b71-3dd8-4529-8bcd-e8ae0cbd47f3)
+
