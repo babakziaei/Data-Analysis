@@ -14,7 +14,7 @@ The task at hand involves accurately identifying, classifying, and understanding
 4. Generate a comprehensive report to provide insights on monthly fire activities, emphasizing regions with the highest fire intensity and frequency.
 5. 
 
- <img src="[https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0)" width="200" height="400" /> 
+(https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0)" width="200" height="400" /> 
 ![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0 | width=100)
 
 ## Step-by-Step Process:
