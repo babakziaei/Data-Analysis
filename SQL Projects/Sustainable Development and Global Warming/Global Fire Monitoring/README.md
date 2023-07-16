@@ -16,7 +16,7 @@ The task at hand involves accurately identifying, classifying, and understanding
    
                       
 ## Step-by-Step Process:
-
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://user-images.githubusercontent.com/126654048/253795206-fd800cf3-5776-4c93-a627-cad8ddcabee5.jpg" width="261" height="227">
 ![rsz_capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/fd800cf3-5776-4c93-a627-cad8ddcabee5)
 
 1. Leverage the appropriate NASA database.
