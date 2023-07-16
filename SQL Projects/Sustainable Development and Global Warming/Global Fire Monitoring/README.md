@@ -12,12 +12,12 @@ The task at hand involves accurately identifying, classifying, and understanding
 2. Evaluate fire intensity and frequency utilizing parameters such as brightness, fire radiative power (FRP), and confidence levels provided in the NASA data.
 3. Establish a ranking mechanism to categorize fire intensity based on average monthly brightness, FRP, and confidence.
 4. Generate a comprehensive report to provide insights on monthly fire activities, emphasizing regions with the highest fire intensity and frequency.
-   
-   
+    
                       
 ## Step-by-Step Process:
+
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://user-images.githubusercontent.com/126654048/253795206-fd800cf3-5776-4c93-a627-cad8ddcabee5.jpg" width="261" height="227">
-![rsz_capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/fd800cf3-5776-4c93-a627-cad8ddcabee5)
+
 
 1. Leverage the appropriate NASA database.
 2. Determine and classify the region based on latitude:
