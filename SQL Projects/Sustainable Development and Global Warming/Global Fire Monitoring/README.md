@@ -15,7 +15,7 @@ The task at hand involves accurately identifying, classifying, and understanding
 5. 
 
  
-![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0){:height="100px" width="100px"}
+![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0{:height="100px" width="100px"}){:height="100px" width="100px"}
 
 ## Step-by-Step Process:
 
