@@ -15,6 +15,7 @@ The task at hand involves accurately identifying, classifying, and understanding
 5. 
 <img src="https://github.com/babakziaei/Data-Analysis/raw/main/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0.png" width="400">
 
+<img src="https://github.com/babakziaei/Data-Analysis/raw/main/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0" width="400">
 
   
 ![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/0307052f-3107-4b04-b15a-9697066267f0)
