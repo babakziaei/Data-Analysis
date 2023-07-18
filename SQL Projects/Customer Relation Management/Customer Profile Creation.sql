@@ -12,7 +12,6 @@ CREATE TABLE #CustomerProfiles
   TotalSpent money,
   NumOrders int,
   MostPurchasedProduct int
-Maxunitpricemostpurchasedproduct double
 );
 
 -- Populate the table with customer data
