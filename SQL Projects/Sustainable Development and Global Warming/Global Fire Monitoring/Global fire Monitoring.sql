@@ -3,7 +3,7 @@
 
 USE nasa;
 
---s
+
 
 WITH region_classification AS (
     SELECT
