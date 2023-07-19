@@ -1,3 +1,5 @@
+# Customer Purchasing Behavior Analysis
+
 ## Problem Statement
 Understanding customer behavior and segmenting customers based on their purchasing patterns is crucial for businesses to tailor their marketing strategies and improve customer satisfaction. However, analyzing customer data from the AdventureWorks database to identify and categorize customers can be complex and time-consuming.
 # Customer Segmentation based on Purchasing Behavior
@@ -46,7 +48,7 @@ By accomplishing these objectives, businesses can gain valuable insights into cu
 
 
 
-# Customer Purchasing Behavior Analysis
+
 ## Step-by-Step Process 
 1. **Create Spending and Buying Frequency Categories:** Categorize customers into 'High spender', 'Medium spender', or 'Low spender' based on total amount spent, and 'Frequent buyer', 'Regular buyer', or 'Infrequent buyer' based on the number of orders. 
 2. **Calculate Average Order Value:** Compute the average value of orders for each customer by dividing total spent by the number of orders. Handle cases where the number of orders is zero to avoid division by zero errors. 
