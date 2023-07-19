@@ -44,20 +44,9 @@ By accomplishing these objectives, businesses can gain valuable insights into cu
 
 
 
-
-Step by Step Process
-Create Spending and Buying Frequency Categories: Categorize customers into 'High spender', 'Medium spender', or 'Low spender' based on total amount spent, and 'Frequent buyer', 'Regular buyer', or 'Infrequent buyer' based on the number of orders.
-Calculate Average Order Value: Compute the average value of orders for each customer by dividing total spent by the number of orders. Handle cases where the number of orders is zero to avoid division by zero errors.
-Identify Most Preferred Product Category: For each customer, find the product category which appears most often in their purchases.
-Calculate Days Since Last Purchase: Compute the number of days since each customer's last purchase.
-Evaluate Email Promotion Effectiveness: If the customer does not receive email promotions, label them as 'No email promotion'. If they do receive promotions, analyze their purchase history from the last 6 months to determine if the promotions are effective.
-Identify Order Size Preference: For each customer, identify their typical order size ('Bulk buyer', 'Medium quantity buyer', 'Small quantity buyer') based on the quantity of items in their most common order size.
-
-
-Find Most Active Day: Determine the weekday on which each customer is most likely to place an order.
-Calculate Average Purchase Quantity: Compute the average quantity of items in each customer's orders.
-Identify Spend Trend: Compare each customer's total spend this year to their average spend last year to identify if their spend has increased or stayed the same/decreased.
-At the end of this process, you should have a comprehensive view of each customer's purchasing behavior, allowing for more effective targeting in marketing efforts and potentially leading to increased customer satisfaction and sales.
+# Customer Purchasing Behavior Analysis ## Step-by-Step Process 1. **Create Spending and Buying Frequency Categories:** Categorize customers into 'High spender', 'Medium spender', or 'Low spender' based on total amount spent, and 'Frequent buyer', 'Regular buyer', or 'Infrequent buyer' based on the number of orders. 2. **Calculate Average Order Value:** Compute the average value of orders for each customer by dividing total spent by the number of orders. Handle cases where the number of orders is zero to avoid division by zero errors. 3. **Identify Most Preferred Product Category:** For each customer, find the product category which appears most often in their purchases. 4. **Calculate Days Since Last Purchase:** Compute the number of days since each customer's last purchase. 5. **Evaluate Email Promotion Effectiveness:** If the customer does not receive email promotions, label them as 'No email promotion'. If they do receive promotions, analyze their purchase history from the last 6 months to determine if the promotions are effective. 6. **Identify Order Size Preference:** For each customer, identify their typical order size ('Bulk buyer', 'Medium quantity buyer', 'Small quantity buyer') based on the quantity of items in their most common order size. 7. **Find Most Active Day:** Determine the weekday on which each customer is most likely to place an order. 8. **Calculate Average Purchase Quantity:** Compute the average quantity of items in each customer's orders. 9. **Identify Spend Trend:** Compare each customer's total spend this year to their average spend last year to identify if their spend has increased or stayed the same/decreased. At the end of this process, you should have a comprehensive view of each customer's purchasing behavior, allowing for more effective targeting in marketing efforts and potentially leading to increased customer satisfaction and sales.
 
 ![image](https://github.com/babakziaei/Data-Analysis/assets/126654048/684c459a-ef5d-4ecb-a1a5-47c924d6d313)
+
+#### DATASET FROM: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
 
