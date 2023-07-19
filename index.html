@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babak Ziaei | Project Manager & Business Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            font-family: 'Roboto Slab', serif;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            padding: 0 20px;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 960px;
             margin: auto;
-            padding: 10px;
+            padding: 0 20px;
         }
 
-        h1, h2, p {
-            text-align: center;
+        h2 {
+            color: #0366d6;
         }
 
         a {
@@ -28,14 +48,40 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .intro {
+            padding: 20px 0;
+            line-height: 1.6;
+        }
+
+        .repo-link {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 10px 0;
+            color: white;
+            background-color: #0366d6;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+
+        .repo-link:hover {
+            background-color: #0356a6;
+        }
     </style>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <h1>Babak Ziaei | Project Manager & Business Data Analyst</h1>
+        </div>
+    </header>
     <div class="container">
-        <h1>Welcome to Babak Ziaei's Project Page</h1>
-        <h2>Project Manager & Business Data Analyst</h2>
-        <p>Welcome to my GitHub Pages site where I showcase my data analysis projects. </p>
-        <p>You can view my <a href="https://github.com/babakziaei/Data-Analysis">Data-Analysis repository on GitHub</a> to access the original source code and project files.</p>
+        <div class="intro">
+            <h2>Welcome to my Project Page</h2>
+            <p>As a professional project manager and business data analyst, I am excited to showcase my projects that demonstrate my capabilities and expertise in data analysis. Here you will find the projects that I have been working on, which offer insights into my skills and the methods I use to achieve results.</p>
+            <p>To access the source code and project files of my data analysis projects, click the button below to visit my GitHub repository:</p>
+            <a class="repo-link" href="https://github.com/babakziaei/Data-Analysis">Go to Data-Analysis Repository</a>
+        </div>
     </div>
 </body>
 </html>
