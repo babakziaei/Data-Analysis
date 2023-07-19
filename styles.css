@@ -73,3 +73,71 @@ body {
     color: #ECF0F1; /* White */
     transform: scale(1.05);
 }
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+    background-color: #ECF0F1; /* White */
+    color: #2C3E50; /* Dark Gray */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.project-category {
+    margin-bottom: 60px;
+}
+
+.project-category-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF; /* White */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.project-item-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item-description {
+    margin-bottom: 15px;
+}
+
+.project-item-results {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.project-item-link {
+    display: inline-block;
+    background-color: #3498DB; /* Soft Blue */
+    color: #ECF0F1; /* White */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.project-item-link:hover {
+    background-color: #2980B9; /* Darker Blue */
+}
+
+/* Rest of the CSS styles */
+/* Add any additional CSS styles for the remaining sections here */
