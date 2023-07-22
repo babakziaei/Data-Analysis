@@ -47,3 +47,5 @@ We then join our updated #CustomerProfiles table with a subquery, which obtains 
 
 ### 4. Gather Additional Insights About Top Buyers in Each State
 Finally, we aim to provide additional insights about the top buyers in each state. This includes data like the preferred product, total orders, the most active day of ordering, and email promotion preference. We gather this information by joining our customer profiles table with several subqueries and present this information for the top buyer in each state. 
+
+![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/b8845ce1-c830-45fd-8f5b-1c85d1905086)
