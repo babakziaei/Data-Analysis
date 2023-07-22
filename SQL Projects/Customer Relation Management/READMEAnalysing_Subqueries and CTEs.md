@@ -49,3 +49,6 @@ By executing and analyzing these codes, you can understand which sales months ha
 
 By completing these steps, you will understand the pros and cons of using subqueries and CTEs and can apply the best method to suit your use case. You can also derive insights on sales trends and performance over time, providing a valuable resource for business strategy and planning.
 
+![Capture](https://github.com/babakziaei/Data-Analysis/assets/126654048/b5eed7cc-a183-4608-bdf9-07b88a1aa1f1)
+
+
