@@ -1,6 +1,6 @@
-Business analysis
 
-# Business Analysis (Updated)
+
+# Business Analysis 
 
 Our application is a comprehensive Django-based platform that specializes in user authentication, permissions, risk management, session control, and robust risk qualitative analysis.
 
