@@ -1,6 +1,6 @@
 # Personal Profile Description for IT Project Management Role
 
-I am an accomplished IT Project Manager, grounded in PMI and PMP methodologies, with a distinctive ability to oversee individual IT projects. My competence lies in combining my strong technical expertise, particularly with the Django framework, with my deep understanding of project management principles to deliver solutions that align with business objectives.
+I am an accomplished IT Project Manager, grounded in PMI and PMP methodologies, with a distinctive ability to oversee individual IT projects, ensuring alignment with business objectives. My technical expertise extends to Agile, Scrum, and DevOps practices. This blend of skills allows me to design, oversee, and deliver sophisticated IT solutions that drive organizational success.
 
 One of my key projects, a Django-based platform, demonstrates my ability to manage complex IT projects individually. This platform addresses user authentication, permissions, and session control with a robust focus on risk qualitative analysis. The project showcases my capacity to develop technical solutions and conduct a detailed risk analysis, vital aspects in driving projects to their successful completion.
 
