@@ -34,5 +34,6 @@ In the 'Data Breach' example, the risk was identified due to weak data security 
 
 The range of risks identified, from technological to external, project-related, organizational, and financial, demonstrates the application's ability to manage diverse business scenarios. This, coupled with the capability to perform risk qualitative analysis, makes it suitable for businesses across various sectors and scales.
 
+![my_project_visualized](https://github.com/babakziaei/Data-Analysis/assets/126654048/d58ea1ec-4fcc-43f6-9e29-b62aad5b5e22)
 
 ![homepage](https://github.com/babakziaei/Data-Analysis/assets/126654048/04d951bd-c990-49eb-a802-969b99318cfb)
