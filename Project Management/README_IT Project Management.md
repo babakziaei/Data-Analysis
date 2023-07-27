@@ -13,3 +13,6 @@ In essence, my blend of project management skills, technical proficiency with Dj
   <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/fe209feb-dfa7-46c8-8969-ffb55aad1ffd" width="100" />
   <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/2ced7d61-dceb-4de4-babd-bd43b799ba4f" width="100" />
 </p>
+![homepage](https://github.com/babakziaei/Data-Analysis/assets/126654048/a0cf04f3-fa84-4129-9375-a79829e7427d)
+![risk assessment](https://github.com/babakziaei/Data-Analysis/assets/126654048/fe209feb-dfa7-46c8-8969-ffb55aad1ffd)
+![ristrend](https://github.com/babakziaei/Data-Analysis/assets/126654048/2ced7d61-dceb-4de4-babd-bd43b799ba4f)
