@@ -33,3 +33,6 @@ For more detailed insights into potential use cases and business contexts, pleas
 In the 'Data Breach' example, the risk was identified due to weak data security protocols, potentially leading to sensitive data exposure. The system classifies this risk as low urgency, which indicates a minor potential impact. The chosen response to this risk is acceptance (ACC), showing the organization's awareness and preparedness to handle its potential effects.
 
 The range of risks identified, from technological to external, project-related, organizational, and financial, demonstrates the application's ability to manage diverse business scenarios. This, coupled with the capability to perform risk qualitative analysis, makes it suitable for businesses across various sectors and scales.
+
+
+![homepage](https://github.com/babakziaei/Data-Analysis/assets/126654048/04d951bd-c990-49eb-a802-969b99318cfb)
