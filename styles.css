@@ -17,6 +17,8 @@ body {
     max-width: 980px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #home {
@@ -73,6 +75,17 @@ body {
     text-align: center;
 }
 
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-container .project-category {
+    margin: 0 20px; /* Adjust this value to change the distance between projects */
+}
+
+
+
 .section-title {
     font-size: 2.5em;
     margin-bottom: 30px;
@@ -85,6 +98,8 @@ body {
 .project-category-title {
     font-size: 1.8em;
     margin-bottom: 20px;
+    flex: 1 0 auto; 
+    margin: 0 10px;
 }
 
 .project-list {
