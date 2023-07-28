@@ -1,4 +1,4 @@
-#Comparative Analysis of Subquery vs CTE Approaches in Excluding Outliers for Monthly Sales and Purchases
+# Comparative Analysis of Subquery vs CTE Approaches in Excluding Outliers for Monthly Sales and Purchases
 
 ## Problem Statement
 
