@@ -8,7 +8,7 @@ My experience extends to managing IT risks, which I see as an integral part of a
 
 In essence, my blend of project management skills, technical proficiency with Django, and practical experience in risk analysis position me as an effective IT Project Manager. I am ready to leverage these competencies to deliver high-quality solutions and manage projects successfully in any organization.
 
-| ![Image1](https://github.com/babakziaei/Data-Analysis/assets/126654048/a0cf04f3-fa84-4129-9375-a79829e7427d) | ![Image2](https://github.com/babakziaei/Data-Analysis/assets/126654048/fe209feb-dfa7-46c8-8969-ffb55aad1ffd) | ![Image3](https://github.com/babakziaei/Data-Analysis/assets/126654048/2ced7d61-dceb-4de4-babd-bd43b799ba4f) |
+| <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/a444f4b4-60e1-4629-87c0-48df3552c17a" width="400"> | ![Image2](https://github.com/babakziaei/Data-Analysis/assets/126654048/fe209feb-dfa7-46c8-8969-ffb55aad1ffd) | ![Image3](https://github.com/babakziaei/Data-Analysis/assets/126654048/2ced7d61-dceb-4de4-babd-bd43b799ba4f) |
 |:---:|:---:|:---:|
 | Web Home Page | Risk Qualitative Assessment MAtrix | Risk Trend |
 
