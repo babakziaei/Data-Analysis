@@ -216,4 +216,38 @@ body {
     /* Other styles... */
     animation: bounce 70s infinite;
 }
+.certifications {
+    text-align: center;
+    margin: 170px 0;
+}
+
+.certifications h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.certification-category {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.certification-category h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.certification-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certification-category ul li a {
+    font-size: 1.2em;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.certification-category ul li a:hover {
+    text-decoration: underline;
+}
 
