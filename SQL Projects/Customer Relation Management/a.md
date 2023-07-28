@@ -1,17 +1,19 @@
-# Problem Statement
+#Comparative Analysis of Subquery vs CTE Approaches in Excluding Outliers for Monthly Sales and Purchases
+
+## Problem Statement
 
 In the context of our organization, we often need to analyze the sum of sales and purchases on a monthly basis. However, the top 10 orders per month have been identified as outliers and skew our data analysis. Therefore, these outliers need to be removed from our dataset before we can perform meaningful analysis.
 
-# Objectives
+## Objectives
 
 1. Remove the top 10 orders per month based on the `TotalDue` field from both sales and purchase data.
 2. Calculate the sum of sales and purchases (minus these outliers) on a monthly basis.
 3. Display this data side by side by month.
 4. Improve the readability of existing SQL queries through the use of Common Table Expressions (CTEs).
 
-# Approach 1: Subqueries 
+## Approach 1: Subqueries 
 
-## Step-by-step process
+### Step-by-step process
 
 1. Create two subqueries that generate a dataset from sales and purchases data respectively, including `OrderDate`, `OrderMonth`, `TotalDue`, and an `OrderRank` for each order per month based on the `TotalDue` in descending order.
 
@@ -21,7 +23,7 @@ In the context of our organization, we often need to analyze the sum of sales an
 
 4. Join the two datasets on `OrderMonth` to display `TotalSales` and `TotalPurchases` side by side.
 
-## Code
+### Code
 
 ```sql
 SELECT
@@ -64,9 +66,9 @@ JOIN (
 ORDER BY 1
 ```
 
-# Approach 2: Common Table Expressions (CTEs) 
+## Approach 2: Common Table Expressions (CTEs) 
 
-## Step-by-step process
+### Step-by-step process
 
 1. Create CTEs `Sales` and `Purchases` that generate datasets from sales and purchases data respectively, including `OrderDate`, `OrderMonth`, `TotalDue`, and an `OrderRank` for each order per month based on the `TotalDue` in descending order.
 
@@ -76,7 +78,7 @@ ORDER BY 1
 
 4. Join `SalesMinusTop10` and `PurchasesMinusTop10` on `OrderMonth` to display `TotalSales` and `TotalPurchases` side by side.
 
-## Code
+### Code
 
 ```sql
 WITH Sales AS
