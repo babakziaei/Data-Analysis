@@ -18,7 +18,9 @@ Sourced reliable suppliers, negotiated contract terms, and maintained healthy re
 
 ## Final Thoughts
 This project enhanced my understanding of the e-commerce landscape and honed my skills in project management, content creation, digital advertising, market research, and vendor negotiation. Feel free to reach out with any inquiries or feedback.
-| ![Image1](https://github.com/babakziaei/Data-Analysis/assets/126654048/a444f4b4-60e1-4629-87c0-48df3552c17a) | ![Image2](https://github.com/babakziaei/Data-Analysis/assets/126654048/251e52db-1650-4090-9bff-287e582cdc29) | ![Image3](https://github.com/babakziaei/Data-Analysis/assets/126654048/4b2487d1-e031-4125-9f69-e36fa6c9df03) |
+
+| <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/a444f4b4-60e1-4629-87c0-48df3552c17a" width="400"> | <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/251e52db-1650-4090-9bff-287e582cdc29" width="400"> | <img src="https://github.com/babakziaei/Data-Analysis/assets/126654048/4b2487d1-e031-4125-9f69-e36fa6c9df03" width="400"> |
 |:---:|:---:|:---:|
 | Caption 1 | Caption 2 | Caption 3 |
+
 
