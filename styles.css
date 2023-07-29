@@ -28,13 +28,43 @@ body {
 }
 
 .profile-pic img {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    /* Dimensions of the image */
+    width: 300px;
+    height: 450px;
+
+    /* Object fit to preserve the aspect ratio */
     object-fit: cover;
+
+    /* Center the image */
     object-position: center;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+
+    /* Add a box shadow for a "lifted" effect */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+    /* Slightly rounded corners */
+    border-radius: 5%;
+
+    /* Add a thin border */
+    border: 1px solid #ddd;
+
+    /* Smooth transition for any change */
+    transition: all 0.3s ease;
+
+    /* Space at the bottom */
     margin-bottom: 20px;
+}
+
+/* Hover effect to slightly scale up the image and darken the box shadow */
+.profile-pic img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect to ensure accessibility */
+.profile-pic img:focus {
+    outline: 5px solid #333;
+    outline-offset: 10px;
+    border: 15px
 }
 
 .intro h1 {
