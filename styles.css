@@ -33,9 +33,9 @@ body {
     height: 450px;
     .certification-pic img {
     /* Dimensions of the image */
-    width: 400px;
-    height: 600px;
-
+    width: 600px;
+    height: 400px;
+    }
     /* Object fit to preserve the aspect ratio */
     object-fit: cover;
 
