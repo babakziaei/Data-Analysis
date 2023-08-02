@@ -31,11 +31,7 @@ body {
     /* Dimensions of the image */
     width: 300px;
     height: 450px;
-    .certification-pic img {
-    /* Dimensions of the image */
-    width: 600px;
-    height: 400px;
-    }
+
     /* Object fit to preserve the aspect ratio */
     object-fit: cover;
 
