@@ -33,8 +33,8 @@ body {
     height: 450px;
     .certification-pic img {
     /* Dimensions of the image */
-    width: 600px;
-    height: 1200px;
+    width: 400px;
+    height: 600px;
 
     /* Object fit to preserve the aspect ratio */
     object-fit: cover;
