@@ -281,3 +281,34 @@ body {
     text-decoration: underline;
 }
 
+/* For tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    .profile-pic img {
+        width: 200px; /* Adjust as needed */
+        height: 300px; /* Adjust as needed */
+    }
+    /* Add other styles for tablets as needed */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    .profile-pic img {
+        width: 150px; /* Adjust as needed */
+        height: 225px; /* Adjust as needed */
+    }
+    /* Add other styles for mobile phones as needed */
+}
