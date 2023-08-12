@@ -312,3 +312,92 @@ body {
     }
     /* Add other styles for mobile phones as needed */
 }
+.bottom-button-container {
+    text-align: center; /* Ensure elements inside are centered */
+    padding: 20px; /* Space around the container */
+    background-color: #F4F8FC; /* Light grayish-blue background for the whole container */
+    border-radius: 10px; /* Rounded corners for the container */
+    margin: 0 auto; /* Horizontally center the container */
+    max-width: 80%; /* Limit the maximum width */
+}
+
+.back-to-top-button {
+    display: inline-block; /* Keep the button inline */
+    background-color: #394e64;  /* Primary blue color */
+    color: #ffffff; /* White text */
+    padding: 20px 24px; /* Space inside the button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10px; /* Space below the button */
+}
+
+.back-to-top-button:hover {
+    background-color: #5e7793;  /* Darker shade of blue for hover */
+}
+
+.description-text {
+    color: #000000; /* Lighter blue for the description text */
+    font-size: 1em;
+}
+
+#featured-project {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #E8F2F8; /* A softer shade for the background */
+}
+
+.card {
+    display: inline-block;
+    padding: 30px 20px; 
+    background-color: #ffffff;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08); /* Enhanced shadow for depth */
+    border-radius: 10px;
+    max-width: 320px; 
+    transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* A subtle lift on hover, further indicating interactivity */
+}
+
+.card h4 {
+    font-size: 1.5em;
+    color: #2C3D50; /* Darker shade for the title */
+    margin-bottom: 15px;
+    font-weight: bold; /* Bolder font for hierarchy */
+}
+
+.card-description {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #394e64;
+}
+
+.sub-description {
+    color: #7A8DAA; /* Muted color for secondary text */
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.card-link {
+    background-color: #217AB7; /* Brighter, contrasting blue for the CTA */
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: inline-flex; 
+    align-items: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* A subtle shadow to give the button depth */
+}
+
+.card-link .icon {
+    padding-left: 8px;
+}
+
+.card-link:hover {
+    background-color: #1A5D95; /* Darker blue on hover */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover for a "rising" effect */
+}
