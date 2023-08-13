@@ -54,7 +54,7 @@ body, html {
     border-radius: 50%; /* Makes it round */
     border: 3px solid #2c3e50; /* Dark blue-gray border */
     background-color: #dcdcdc; /* Light gray background */
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    box-shadow: 0px 0px 40px rgba(181, 171, 171, 0.2); /* Adds a shadow for depth */
     transition: transform 0.3s ease-in-out; /* Smoothens any transform animations */
     line-height: calc(60px + 5vw); /* This might not be necessary due to flex alignments */
     text-align: center; /* Horizontally centers text within the circle */
