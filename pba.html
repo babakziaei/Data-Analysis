@@ -2,296 +2,182 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PMP Interactive Table</title>
-    <style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 16px; /* Increase base font size for readability */
-    color: #333; /* Set a softer, darker color for the text to reduce eye strain */
-}
-th, td {
-    border: 1px solid #ddd; 
-    padding: 12px; /* Increase padding for better visual separation and touch targets */
-    text-align: left; /* Left-align text for better readability */
-    font-weight: bold; /* Set text to be bold */
-}
-th {
-    background-color: #426d43; /* Use a pleasant green color that has good contrast with white */
-    color: white; /* Set a contrasting text color for headers */
-}
-.process {
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    background-color: #f9f9f9; /* Set a default light background */
-    transition: background-color 0.3s;
-    font-weight: normal; /* Override the bold font-weight for .process elements */
-}
-
-        .process:hover {
-            background-color: #f5f5f5;
-        }
-        .tooltip {
-            position: absolute;
-            bottom: 120%;
-            left: 50%;
-            transform: translateX(-50%);
-            visibility: hidden;
-            background-color: #333; /* Darker color for better contrast */
-            color: #fff;
-            text-align: left;
-            border-radius: 8px;
-            padding: 12px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-            opacity: 0;
-            transition: opacity 0.3s;
-            line-height: 1.6; /* Increase line height for better readability */
-        }
-        
-        .tooltip:before {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -8px;
-            border-width: 8px;
-            border-style: solid;
-            border-color: transparent transparent #333 transparent; /* Match tooltip background color */
-            z-index: 2;
-        }
-        
-        .process:hover .tooltip {
-            visibility: visible;
-            opacity: 1;
-        }
-    
-        /* Improve responsiveness */
-        @media screen and (max-width: 600px) {
-            table {
-                border: 0;
-            }
-    
-            table caption {
-                font-size: 1.3em;
-            }
-            
-            table thead {
-                display: none; /* Hide headers */
-            }
-    
-            table tr {
-                margin-bottom: 0.625em;
-                display: block;
-                text-align: center;
-            }
-            
-            table td {
-                display: block; /* Stack table rows */
-                text-align: center; /* Center text */
-                border: none; /* Remove border */
-            }
-        }
-    </style>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABAK ZIAEI | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <title>PMP Certification Overview</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-        .introduction {
-            margin: 20px;
-        }
-        .knowledge-groups {
-            margin: 20px;
-        }
-    </style>
-</head>
-<body>
+<body> 
+    <section id="home">
+        <div class="container">
+            <div class="profile-pic">
+                <img src="IMG_98046-2.jpg" alt="BABAK ZIAEI">
+            </div>
+            <div class="intro">
+                <h1>Welcome, I'm BABAK ZIAEI</h1>
+                <h2>Project Manager | Business Data Analyst</h2>
+                <p>
+                    Welcome! My journey began with a solid foundation in physics, engineering, and social sciences, setting the stage for my fascination with complex systems and leading to several scientific publications. 
 
-    <section class="introduction">
-        <h1>PMI-PBA Certification Overview</h1>
+My initial venture into entrepreneurship allowed me to explore the complexities of e-commerce and real estate, developing my skills as a business analyst and project manager. This phase of my career was both a challenge and a chance to apply my analytical skills to practical situations, driving business growth and project success.
+
+I'm dedicated to sustainable development and servant leadership in all my work, viewing challenges as opportunities to learn, grow, and foster a collaborative environment. My portfolio reflects this journey; I invite you to explore it and see the potential value I can bring to your organization. </p>
+                <a href="#projects" class="cta-button">See My Work</a>
+               <!-- ...existing HTML... -->
+
+
+
+<div class="scroll-indicator">
+    <div class="arrow"></div>
+    <div class="arrow"></div>
+</div>
+
+<!-- ...existing HTML... -->
+
+                
+            </div>
+        </div>
+    </section>
+  
     
-        <p>
-            The PMI Professional in Business Analysis (PMI-PBA) certification is a globally respected standard that signifies expertise in business analysis. Major companies, such as Deloitte and Accenture, rely on PMI-PBA certified professionals to guide their projects and optimize business processes, emphasizing the certification's high level of recognition and trust across industries.
-        </p>
-    
-        <p>
-            The PMI-PBA exam covers an extensive range of knowledge areas and processes, which are detailed in the table below. This certification is designed to validate the expertise of professionals who work with stakeholders in defining requirements and shaping the output of projects, ensuring a focused and efficient delivery of solutions.
-        </p>
-    
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+         <div class="project-container">
+            <div class="project-category">
+                <h3 class="project-category-title"></h3>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h4 class="project-item-title">Data Analysis</h4>
+                        <p class="project-item-description">SQL Projects</p>
+                      <!--  <p class="project-item-results">Key results achieved.</p> -->
+                        <a href="https://github.com/babakziaei/Data-Analysis/tree/main/SQL%20Projects" class="project-item-link" target="_blank">GitHub Repository</a>
+                    </div>
+                  
+                    <!-- Add more projects here -->
+                </div>
+            </div>
+        
+             <div class="project-category">
+                <h3 class="project-category-title"></h3>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h4 class="project-item-title">Business Analysis</h4>
+                        <p class="project-item-description">BI</p>
+                       
+                        <a href="https://github.com/babakziaei/Data-Analysis/tree/main/Business%20Forecasting%20and%20Analysis" class="project-item-link" target="_blank">GitHub Repository</a>
+                    </div>
+                    
+                    <!-- Add more projects here -->
+                </div>
+            </div>
+            <div class="project-category">
+                <h3 class="project-category-title"></h3>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h4 class="project-item-title">Project Management</h4>
+                        <p class="project-item-description">Intro.</p>
+                       
+                        <a href="https://github.com/babakziaei/Data-Analysis/tree/main/Project%20Management" class="project-item-link" target="_blank">GitHub Repository</a>
+                    </div>
+                
+                    <!-- Add more projects here -->
+                </div>
+            </div>
+          
+          
+        </div>
+
+        <div class="section-divider"><span>&#9733;</span></div>
+
 
     </section>
-    
-    
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Knowledge Areas</th>
-                <th>Defining and Aligning Process Group (2)</th>
-                <th>Initiating Process Group (3)</th>
-                <th>Planning Process Group (4)</th>
-                <th>Executing Process Group (5)</th>
-                <th>Monitoring and Controlling Process Group (6)</th>
-                <th>Releasing Process Group (7)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- 4. Needs Assessment -->
-            <tr>
-                
-                <td>Needs Assessment</td>
-                <td class="process">
-                    Identify Problem or Opportunity (2.1)<br>
-                    Assess Current State (2.2)<br>
-                    Determine Future State (2.3)<br>
-                    Determine Viable Options and Provide Recommendation (2.4)<br>
-                    Facilitate Product Roadmap Development (2.5)<br>
-                    Assemble Business Case (2.6)
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="process">
-                        Support Charter Development (3.1)
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tr>
-            
-               <!-- Updated 5. Stakeholder Engagement -->
-               <tr>
-                <td>Stakeholder Engagement</td>
-               
-                <td class="process">
-                    Identify Stakeholders (2.7)
-                </td>
-                <td></td>
-                <td class="process">
-                    Conduct Stakeholder Analysis (4.1)<br>
-                    Determine Stakeholder Engagement and Communication Approach (4.2)<br>
-                    Conduct Business Analysis Planning (4.3)
-                </td>
-                <td class="process">
-                    Prepare for Transition to Future State (5.1)
-                </td>
-                <td class="process">
-                    Manage Stakeholder Engagement and Communication (6.1)<br>
-                    Assess Business Analysis Performance (6.2)
-                </td>
-                <td></td>
-                
-            </tr>
-    
-            <!-- Initiating Process Group (3) -->
-            
-                    <!-- 6. Elicitation -->
-        <tr>
-            <td>Elicitation</td>
-            <td></td>
-            <td></td>
-            <td class="process">
-                Determine Elicitation Approach (4.4)
-            </td>
-            <td class="process">
-                Prepare for Elicitation (5.2)<br>
-                Conduct Elicitation (5.3)<br>
-                Confirm Elicitation Results (5.4)
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!-- 7. Analysis -->
-        <tr>
-            <td>Analysis</td>
-            <td></td>
-            <td></td>
-            <td class="process">
-                Determine Analysis Approach (4.5)
-            </td>
-            <td class="process">
-                Create and Analyze Models (5.5)<br>
-                Define and Elaborate Requirements (5.6)<br>
-                Define Acceptance Criteria (5.7)<br>
-                Verify Requirements (5.8)<br>
-                Validate Requirements (5.9)<br>
-                Prioritize Requirements and Other Product Information (5.10)<br>
-                Identify and Analyze Product Risks (5.11)<br>
-                Assess Product Design Options (5.12)
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!-- 8. Traceability and Monitoring -->
-        <tr>
-            <td>Traceability and Monitoring</td>
-            <td></td>
-            <td></td>
-            <td class="process">
-                Determine Traceability and Monitoring Approach (4.6)
-            </td>
-            <td class="process">
-                Establish Relationships and Dependencies (5.13)<br>
-                Select and Approve Requirements (5.14)
-            </td>
-            <td class="process">
-                Manage Changes to Requirements and Other Product Information (6.3)
-            </td>
-            <td></td>
-        </tr>
-        <!-- 9. Solution Evaluation -->
-        <tr>
-            <td>Solution Evaluation</td>
-            <td class="process">
-                Evaluate Solution Performance (2.8)
-            </td>
-            <td></td>
-            <td class="process">
-                Determine Solution Evaluation Approach (4.7)
-            </td>
-            <td class="process">
-                Evaluate Acceptance Results and Address Defects (5.15)
-            </td>
-            <td></td>
-            <td class="process">
-                Obtain Solution Acceptance for Release
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-        </tbody>
-    </table>
-    
-
-<script>
-    const processes = document.querySelectorAll('.process');
-    processes.forEach(process => {
-        const tooltip = process.querySelector('.tooltip');
+  <!--  <div class="bottom-button-container">
+        <a href="#top" class="back-to-top-button">Centralized Management System</a>
+        <p class="description-text">Please explore my CMS project, which emphasizes sustainability.</p>
+    </div>-->
+    <div class="row">
+        <section id="featured-project" class="col">
+            <div class="card">
+                <h4>Why PMI-PBA?</h4>
+                <p class="card-description">Business Analyst Certifcate</p>
+                <p class="sub-description">Partner with a BA Professional</p>
+                <a href="pba.html" class="card-link" target="_blank">
+                    Explore Project
+                    <span class="icon">&#8594;</span> <!-- This is a simple right arrow -->
+                    <span class="icon-new-tab" aria-hidden="true" title="Opens in a new tab"><!-- This is a new tab icon, with added accessibility attributes -->
+                </a>
+            </div>
+        </section>
+        <section id="featured-project" class="col">
+            <div class="card">
+                <h4>Featured Project</h4>
+                <p class="card-description">Centralized Management System</p>
+                <p class="sub-description">Please explore my CMS project, which emphasizes sustainability.</p>
+                <a href="csm.html" class="card-link" target="_blank">
+                    Explore Project
+                    <span class="icon">&#8594;</span> <!-- This is a simple right arrow -->
+                    <span class="icon-new-tab" aria-hidden="true" title="Opens in a new tab"><!-- This is a new tab icon, with added accessibility attributes -->
+                </a>
+            </div>
+        </section>
         
-        process.addEventListener('mouseenter', () => {
-            tooltip.style.visibility = 'visible';
-            tooltip.style.opacity = '1';
-        });
+        <section id="featured-project" class="col">
+            <div class="card">
+                <h4>Why PMP?</h4>
+                <p class="card-description">The Standard for Unparalleled Project Leadership</p>
+                <p class="sub-description">Partner with a PMP Professional</p>
+                <a href="pmp.html" class="card-link" target="_blank">
+                    Explore Project
+                    <span class="icon">&#8594;</span> <!-- This is a simple right arrow -->
+                    <span class="icon-new-tab" aria-hidden="true" title="Opens in a new tab"><!-- This is a new tab icon, with added accessibility attributes -->
+                </a>
+            </div>
+        </section>
+      
+    </div>
+    
+    
+    
+    
+    <div class="certifications">
+     
+        <h2>Professional Certifications</h2>
+           
+        <div class="certification-category">
+            <h3>Management</h3>
+            <ul>
+                <li><a href="https://www.credly.com/badges/2497caaf-a1ea-4915-9ece-6510a9ac749e/public_url">Project Management Professional (PMP)</a></li>
+                <li><a href="https://www.credly.com/badges/0c537ef1-5ac6-40b4-b930-4a9d866e061f/public_url">Professional Scrum Master™ II (PSM II)</a></li>
+                <li><a href="https://graduation.udacity.com/confirm/EVV2FQF7">Product Manager Degree Program</a></li>
+            </ul>
+        </div>
+        <div class="certification-category">
+            <h3>Business Analysis</h3>
+            <ul>
+                <li><a href="https://www.credly.com/badges/42f758ed-c150-4850-9f44-7708b77e7893/public_url">Professional in Business Analysis (PBA)</a></li>
+                <li><a href="https://www.credly.com/badges/28bb4921-54b6-466f-9fa8-ac8e4e1aed14/public_url">Professional Scrum Product Owner™ I & II (PSPO I & II)</a></li>
+            </ul>
+        </div>
+        <div class="certification-category">
+            <h3>IT/Cloud Architect</h3>
+            <ul>
+                <li><a href="https://www.credly.com/badges/13d2546e-f56c-4b9c-9a7f-1ed4fd743a25/public_url">AWS Certified Developer – Associate</a></li>
+                <li><a href="https://www.udemy.com/certificate/UC-fca87032-56a0-4946-9b3f-86fc230c25a3/">Advanced SQL: MySQL Data Analysis & Business Intelligence</a></li>
+                <li><a href="https://coursera.org/share/4c933d801a921e278e983218e1ea130d">Modern Big Data Analysis with SQL Specialization</a></li>
+            </ul>
+        </div>
+        <div class="certification-category">
+            <h3>Data Analysis</h3>
+            <ul>
+                <li><a href="https://coursera.org/share/38776279de65ef66b4c61ed34f297cd9">Excel Skills for Business Forecasting Specialization</a></li>
+                <li><a href="https://coursera.org/share/750742c6e357665d33dda1267bcc60e7">Business Statistics and Analysis Specialization</a></li>
+                <li><a href="https://www.credly.com/badges/a21f6493-dbae-400f-84c5-7d7cf0a5d2a9/public_url">Google Data Analytics Certificate</a></li>
+            </ul>
+        </div>
+    </div>
 
-        process.addEventListener('mouseleave', () => {
-            tooltip.style.visibility = 'hidden';
-            tooltip.style.opacity = '0';
-        });
-    });
-</script>
+    <!-- Rest of the code -->
+    <!-- Add the remaining sections (work, contact, skills, testimonials, footer) here -->
+
+    <script src="script.js"></script>
 </body>
 </html>
