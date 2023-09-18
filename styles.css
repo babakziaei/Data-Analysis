@@ -1,0 +1,431 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #f6f8fa;
+    color: #24292e;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home {
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+}
+
+.profile-pic img {
+    /* Dimensions of the image */
+    width: 300px;
+    height: 450px;
+
+    /* Object fit to preserve the aspect ratio */
+    object-fit: cover;
+
+    /* Center the image */
+    object-position: center;
+
+    /* Add a box shadow for a "lifted" effect */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+    /* Slightly rounded corners */
+    border-radius: 5%;
+
+    /* Add a thin border */
+    border: 1px solid #ddd;
+
+    /* Smooth transition for any change */
+    transition: all 0.3s ease;
+
+    /* Space at the bottom */
+    margin-bottom: 20px;
+}
+
+/* Hover effect to slightly scale up the image and darken the box shadow */
+.profile-pic img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect to ensure accessibility */
+.profile-pic img:focus {
+    outline: 5px solid #333;
+    outline-offset: 10px;
+    border: 15px
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #0366d6;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.cta-button:hover {
+    background-color: #032f62;
+}
+
+.projects-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-container .project-category {
+    margin: 0 20px; /* Adjust this value to change the distance between projects */
+}
+
+
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.project-category {
+    margin-bottom: 60px;
+}
+
+.project-category-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    flex: 1 0 auto; 
+    margin: 0 10px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+}
+
+.project-item-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item-description {
+    margin-bottom: 15px;
+}
+
+.project-item-results {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.project-item-link {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item-link:hover {
+    background-color: #032f62;
+}
+
+.scroll-down-arrow {
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+.scroll-down-arrow:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 4px 0 4px;
+    border-color: #0366d6 transparent transparent transparent;
+    transition: border-color 0.3s ease;
+}
+
+.scroll-down-arrow:hover:before {
+    border-color: #032f62 transparent transparent transparent;
+}
+
+.scroll-down-hint {
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    transform: translateX(50%);
+    color: #0366d6;
+    font-size: 12px;
+}
+.scroll-indicator {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: bounce 2s infinite;
+    padding-top: 20px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #0366d6;
+    border-right: 2px solid #0366d6;
+    transform: rotate(45deg);
+    margin-bottom: 10px;
+}
+
+@keyframes bounce {
+    5%, 10%, 20%, 100% {
+        transform: translateY(0);
+        transition: transform 1.5s;
+    }
+     60%,70%, 80% {
+        transform: translateY(-2px);
+        transition: transform 1.5s;
+    }
+    
+}
+
+.scroll-down-arrow {
+    /* Other styles... */
+    animation: bounce 70s infinite;
+}
+.certifications {
+    text-align: center;
+    margin: 170px 0;
+}
+
+.certifications h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.certification-category {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.certification-category h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.certification-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certification-category ul li a {
+    font-size: 1.2em;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.certification-category ul li a:hover {
+    text-decoration: underline;
+}
+
+/* For tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    .profile-pic img {
+        width: 200px; /* Adjust as needed */
+        height: 300px; /* Adjust as needed */
+    }
+    /* Add other styles for tablets as needed */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    .profile-pic img {
+        width: 150px; /* Adjust as needed */
+        height: 225px; /* Adjust as needed */
+    }
+    /* Add other styles for mobile phones as needed */
+}
+.bottom-button-container {
+    text-align: center; /* Ensure elements inside are centered */
+    padding: 20px; /* Space around the container */
+    background-color: #F4F8FC; /* Light grayish-blue background for the whole container */
+    border-radius: 10px; /* Rounded corners for the container */
+    margin: 0 auto; /* Horizontally center the container */
+    max-width: 80%; /* Limit the maximum width */
+}
+
+.back-to-top-button {
+    display: inline-block; /* Keep the button inline */
+    background-color: #394e64;  /* Primary blue color */
+    color: #ffffff; /* White text */
+    padding: 20px 24px; /* Space inside the button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10px; /* Space below the button */
+}
+
+.back-to-top-button:hover {
+    background-color: #5e7793;  /* Darker shade of blue for hover */
+}
+
+.description-text {
+    color: #000000; /* Lighter blue for the description text */
+    font-size: 1em;
+}
+
+#featured-project {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #E8F2F8; /* A softer shade for the background */
+}
+
+.card {
+    display: inline-block;
+    padding: 30px 20px; 
+    background-color: #ffffff;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08); /* Enhanced shadow for depth */
+    border-radius: 10px;
+    max-width: 320px; 
+    transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* A subtle lift on hover, further indicating interactivity */
+}
+
+.card h4 {
+    font-size: 1.5em;
+    color: #2C3D50; /* Darker shade for the title */
+    margin-bottom: 15px;
+    font-weight: bold; /* Bolder font for hierarchy */
+}
+
+.card-description {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #394e64;
+}
+
+.sub-description {
+    color: #7A8DAA; /* Muted color for secondary text */
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.card-link {
+    background-color: #217AB7; /* Brighter, contrasting blue for the CTA */
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: inline-flex; 
+    align-items: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* A subtle shadow to give the button depth */
+}
+
+.card-link .icon {
+    padding-left: 8px;
+}
+
+.card-link:hover {
+    background-color: #1A5D95; /* Darker blue on hover */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover for a "rising" effect */
+}
+.row {
+    display: flex;
+    justify-content: space-between; /* Spread items horizontally */
+}
+
+.col {
+    flex-basis: 48%; /* Adjust the width of each column */
+    margin-bottom: 20px; /* Add spacing between columns */
+}
+.section-divider {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.section-divider::before, .section-divider::after {
+    content: '';
+    display: inline-block;
+    width: 40%;
+    height: 2px;
+    background-color: #ddd;
+    vertical-align: middle;
+}
+
+.section-divider span {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}

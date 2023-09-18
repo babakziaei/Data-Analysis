@@ -1,0 +1,40 @@
+0000000000000000000000000000000000000000 a2cb02b92d9dd11c9c09afa026ae30e81e69c505 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689361384 +0300	clone: from https://github.com/babakziaei/Data-Analysis.git
+a2cb02b92d9dd11c9c09afa026ae30e81e69c505 a7137295231ce3cb7b6f2f6f9ba852860a2bf1a5 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689361862 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+a7137295231ce3cb7b6f2f6f9ba852860a2bf1a5 b8db202f30fe3cc215e331c0ad4dc10f18672929 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689436677 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+b8db202f30fe3cc215e331c0ad4dc10f18672929 c2e7257436ab2a58eabf54d2be8b9cbd0d7fb7c8 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689441353 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+c2e7257436ab2a58eabf54d2be8b9cbd0d7fb7c8 81c5e09cbfe81f9f80e73a9d81557bd0568f653a babakziaei <126654048+babakziaei@users.noreply.github.com> 1689445664 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+81c5e09cbfe81f9f80e73a9d81557bd0568f653a 6d1733cf412b32744b3bbad5d8a4593ff9e8430c babakziaei <126654048+babakziaei@users.noreply.github.com> 1689446179 +0300	commit: change
+6d1733cf412b32744b3bbad5d8a4593ff9e8430c 2d189bb5ea3da999785cc3a5ab45faea715d46ee babakziaei <126654048+babakziaei@users.noreply.github.com> 1689607259 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+2d189bb5ea3da999785cc3a5ab45faea715d46ee 1011ecf0d0c398e17466afd4b59074c3d84e7171 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689796431 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+1011ecf0d0c398e17466afd4b59074c3d84e7171 43f1fd54b63a36520a9e6db4cb01bc8893d01609 babakziaei <126654048+babakziaei@users.noreply.github.com> 1689944606 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+43f1fd54b63a36520a9e6db4cb01bc8893d01609 a5d34e07370f762345e3b060b18c8c5cc8a8a773 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690051830 +0300	commit: good
+a5d34e07370f762345e3b060b18c8c5cc8a8a773 e7bc08a1430ce662ecfb5a927d697a44819712e6 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690051884 +0300	pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+e7bc08a1430ce662ecfb5a927d697a44819712e6 7b39f6b188348d36d9e41fc4ba8bd26be02396f3 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690053224 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+7b39f6b188348d36d9e41fc4ba8bd26be02396f3 e989f67e8a807208dc1c76cc204e738876b7f402 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690481134 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+e989f67e8a807208dc1c76cc204e738876b7f402 92e2daf37684abb7f39efaa557b1210d54d472b5 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690481188 +0300	commit: done
+92e2daf37684abb7f39efaa557b1210d54d472b5 a95335ab847efdbabd2acd7a6d9cb5f020a71285 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690482276 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+a95335ab847efdbabd2acd7a6d9cb5f020a71285 1056d7a23be8d65f4a53dc87eff126e70eb083e3 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690482464 +0300	commit: s
+1056d7a23be8d65f4a53dc87eff126e70eb083e3 2eade9abdd3bcb26eaba2c9247e13de5f0d7805c babakziaei <126654048+babakziaei@users.noreply.github.com> 1690482519 +0300	commit: s
+2eade9abdd3bcb26eaba2c9247e13de5f0d7805c 37a47bcaae7c5255c4fcf394f7e6dcb5b4775506 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690489069 +0300	commit: a
+37a47bcaae7c5255c4fcf394f7e6dcb5b4775506 ffdb5095c0911211cc1e33b8000892bfcf24f3b7 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690560600 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+ffdb5095c0911211cc1e33b8000892bfcf24f3b7 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690575946 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
+ad9e4ba360c8b07c3a8409908e1a08a96954483f 1981ebf3c787c272c8aaf19e4141a99d21be6d92 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690612963 +0300	checkout: moving from main to gh-pages
+1981ebf3c787c272c8aaf19e4141a99d21be6d92 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690613052 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f 1981ebf3c787c272c8aaf19e4141a99d21be6d92 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690613088 +0300	checkout: moving from main to gh-pages
+1981ebf3c787c272c8aaf19e4141a99d21be6d92 1981ebf3c787c272c8aaf19e4141a99d21be6d92 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690613660 +0300	checkout: moving from gh-pages to gh-pages
+1981ebf3c787c272c8aaf19e4141a99d21be6d92 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690613852 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f 1981ebf3c787c272c8aaf19e4141a99d21be6d92 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614761 +0300	checkout: moving from main to gh-pages
+1981ebf3c787c272c8aaf19e4141a99d21be6d92 d945ae04468ab385bc1016d434c6cfd14f2676e4 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614765 +0300	commit: Create git
+d945ae04468ab385bc1016d434c6cfd14f2676e4 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614777 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f d945ae04468ab385bc1016d434c6cfd14f2676e4 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614920 +0300	checkout: moving from main to gh-pages
+d945ae04468ab385bc1016d434c6cfd14f2676e4 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614947 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f d945ae04468ab385bc1016d434c6cfd14f2676e4 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690614976 +0300	checkout: moving from main to gh-pages
+d945ae04468ab385bc1016d434c6cfd14f2676e4 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690615412 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f d945ae04468ab385bc1016d434c6cfd14f2676e4 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690615427 +0300	checkout: moving from main to gh-pages
+d945ae04468ab385bc1016d434c6cfd14f2676e4 0de9ee11c0c2b493a8526d4eb52e15c734009990 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690615495 +0300	commit: Create it
+0de9ee11c0c2b493a8526d4eb52e15c734009990 ad9e4ba360c8b07c3a8409908e1a08a96954483f babakziaei <126654048+babakziaei@users.noreply.github.com> 1690616911 +0300	checkout: moving from gh-pages to main
+ad9e4ba360c8b07c3a8409908e1a08a96954483f 5c5bc496ed45d9e2938472f4c2cebc7c4ae328c5 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690616935 +0300	commit: Delete d.md
+5c5bc496ed45d9e2938472f4c2cebc7c4ae328c5 6afbb0c82177cbbfae43cbb38b76b7721e6fcafd babakziaei <126654048+babakziaei@users.noreply.github.com> 1690616953 +0300	pull --ff --recurse-submodules --progress upstream: Merge made by the 'ort' strategy.
+6afbb0c82177cbbfae43cbb38b76b7721e6fcafd 80dcde99ae4f7eedf6e8adba01ff210aa966a301 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690617098 +0300	checkout: moving from main to gh-pages
+80dcde99ae4f7eedf6e8adba01ff210aa966a301 6afbb0c82177cbbfae43cbb38b76b7721e6fcafd babakziaei <126654048+babakziaei@users.noreply.github.com> 1690617229 +0300	checkout: moving from gh-pages to main
+6afbb0c82177cbbfae43cbb38b76b7721e6fcafd 80dcde99ae4f7eedf6e8adba01ff210aa966a301 babakziaei <126654048+babakziaei@users.noreply.github.com> 1690617270 +0300	checkout: moving from main to gh-pages

@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PMP Interactive Table</title>
+    <style>
+        
+        .introduction, table {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to prevent them from becoming too wide */
+    margin-left: auto; /* Center the elements horizontally */
+    margin-right: auto;
+    display: block; /* Ensures the centering takes effect */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to prevent the container from becoming too wide */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+    display: block; /* Ensures the centering takes effect */
+}
+
+.introduction {
+    text-align: justify; /* Justify the text within the introduction section */
+    padding: 0; /* Remove padding to align with the table */
+    margin: 0; /* Remove margin to align with the table */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px; /* Add space at the top of the title */
+    padding-bottom: 20px; /* Add space at the bottom of the title */
+}
+
+.introduction p {
+    margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+/* ... your other existing CSS rules ... */
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Keeps space around text */
+    text-align: left;
+    font-weight: bold;
+    /* ... other properties ... */
+}
+th {
+    background-color: #426d43; /* Use a pleasant green color that has good contrast with white */
+    color: white; /* Set a contrasting text color for headers */
+}
+.process {
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    background-color: #f9f9f9; /* Set a default light background */
+    transition: background-color 0.3s;
+    font-weight: normal; /* Override the bold font-weight for .process elements */
+    width: 12%; 
+}
+
+
+        .process:hover {
+            background-color: #f5f5f5;
+        }
+        .tooltip {
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            visibility: hidden;
+            background-color: #333; /* Darker color for better contrast */
+            color: #fff;
+            text-align: left;
+            border-radius: 8px;
+            padding: 12px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.3s;
+            line-height: 1.6; /* Increase line height for better readability */
+        }
+        
+        .tooltip:before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -8px;
+            border-width: 8px;
+            border-style: solid;
+            border-color: transparent transparent #333 transparent; /* Match tooltip background color */
+            z-index: 2;
+        }
+        
+        .process:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+        th:nth-child(1), td:nth-child(1) { width: 20%; } /* Control width of Knowledge Group */
+        th:nth-child(2), td:nth-child(2), 
+        th:nth-child(3), td:nth-child(3), 
+        th:nth-child(4), td:nth-child(4), 
+        th:nth-child(5), td:nth-child(5), 
+        th:nth-child(6), td:nth-child(6) { width: 12%; } /* Control width of other columns */
+
+        h1 {
+            text-align: center;
+        }
+        .introduction {
+            margin: 20px;
+        }
+        .knowledge-groups {
+            margin: 20px;
+        }
+    
+        /* Improve responsiveness */
+        @media screen and (max-width: 600px) {
+            table {
+                border: 0;
+            }
+    
+            table caption {
+                font-size: 1.3em;
+            }
+            
+            table thead {
+                display: none; /* Hide headers */
+            }
+    
+            table tr {
+                margin-bottom: 0.625em;
+                display: block;
+                text-align: center;
+            }
+            
+            table td {
+                display: block; /* Stack table rows */
+                text-align: center; /* Center text */
+                border: none; /* Remove border */
+            }
+        }
+    </style>
+    
+</head>
+<body>
+   
+    <div class="container">
+
+    <section class="introduction">
+        <h1>PMP Certification Overview</h1>
+    
+        <p>
+            The Project Management Professional (PMP) certification is a globally respected standard that plays a key role in the success of projects at major companies, including IBM and Cisco. These organizations, among many others, rely on PMP-certified professionals to lead their projects, reflecting the certification's widespread recognition and trust.
+        </p>
+    
+        <p>
+            The PMP exam covers a comprehensive range of knowledge areas and processes, which are detailed in the table below. This certification is uniquely designed to align with both agile and waterfall project management methodologies, making it suitable for any project, regardless of size or industry.
+        </p>
+    </section>
+</div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Knowledge Group</th>
+                <th>Initiating</th>
+                <th>Planning</th>
+                <th>Executing</th>
+                <th>Monitoring & Controlling</th>
+                <th>Closing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Project Integration Management -->
+            <tr>
+                <td>Integration Management</td>
+                <td class="process">
+                    Develop Project Charter
+                    <span class="tooltip">
+                        Inputs: Business Case, Agreement<br>
+                        Outputs: Project Charter
+                    </span>
+                </td>
+                <td class="process">
+                    Develop Project Management Plan
+                    <span class="tooltip">
+                        Inputs: Project Charter, Outputs from Other Processes<br>
+                        Outputs: Project Management Plan
+                    </span>
+                </td>
+                <td class="process">
+                    Direct and Manage Project Work
+                    <span class="tooltip">
+                        Inputs: Project Management Plan, Approved Change Requests<br>
+                        Outputs: Deliverables, Work Performance Data
+                    </span>
+                </td>
+                <td class="process">
+                    Monitor and Control Project Work
+                    <span class="tooltip">
+                        Inputs: Project Management Plan, Work Performance Data<br>
+                        Outputs: Work Performance Reports, Change Requests
+                    </span>
+                </td>
+                <td class="process">
+                    Close Project or Phase
+                    <span class="tooltip">
+                        Inputs: Project Management Plan, Accepted Deliverables<br>
+                        Outputs: Final Product, Final Report
+                    </span>
+                </td>
+            </tr>
+            <!-- Project Scope Management -->
+<tr>
+    <td>Scope Management</td>
+    <td></td>
+    <td class="process">
+        Plan Scope Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Scope Management Plan, Requirements Management Plan
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Collect Requirements
+        <span class="tooltip">
+            Inputs: Project Charter, Stakeholder Register<br>
+            Outputs: Requirements Documentation, Requirements Traceability Matrix
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Define Scope
+        <span class="tooltip">
+            Inputs: Project Charter, Requirements Documentation<br>
+            Outputs: Project Scope Statement
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Create WBS
+        <span class="tooltip">
+            Inputs: Project Scope Statement, Requirements Documentation<br>
+            Outputs: Work Breakdown Structure, WBS Dictionary
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Validate Scope
+        <span class="tooltip">
+            Inputs: Project Management Plan, Verified Deliverables<br>
+            Outputs: Accepted Deliverables, Change Requests
+        </span>
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Scope
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Data<br>
+            Outputs: Work Performance Information, Change Requests
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Schedule Management -->
+<tr>
+    <td>Schedule Management</td>
+    <td></td>
+    <td class="process">
+        Plan Schedule Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Schedule Management Plan
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Define Activities
+        <span class="tooltip">
+            Inputs: Scope Baseline, Enterprise Environmental Factors<br>
+            Outputs: Activity List, Activity Attributes, Milestone List
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Sequence Activities
+        <span class="tooltip">
+            Inputs: Activity List, Activity Attributes, Milestone List<br>
+            Outputs: Project Schedule Network Diagrams
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Estimate Activity Durations
+        <span class="tooltip">
+            Inputs: Activity List, Activity Attributes, Resource Calendars<br>
+            Outputs: Duration Estimates, Project Documents Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Develop Schedule
+        <span class="tooltip">
+            Inputs: Schedule Management Plan, Activity List, Activity Attributes<br>
+            Outputs: Schedule Baseline, Project Schedule, Schedule Data
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Schedule
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Data<br>
+            Outputs: Work Performance Information, Change Requests, Schedule Forecasts
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Cost Management -->
+<tr>
+    <td>Cost Management</td>
+    <td></td>
+    <td class="process">
+        Plan Cost Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Cost Management Plan
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Estimate Costs
+        <span class="tooltip">
+            Inputs: Cost Management Plan, Project Schedule, Human Resource Calendars<br>
+            Outputs: Cost Estimates, Basis of Estimates, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Determine Budget
+        <span class="tooltip">
+            Inputs: Cost Management Plan, Cost Estimates, Basis of Estimates<br>
+            Outputs: Cost Baseline, Project Funding Requirements, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Costs
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Funding Requirements, Work Performance Data<br>
+            Outputs: Work Performance Information, Cost Forecasts, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Quality Management -->
+<tr>
+    <td>Quality Management</td>
+    <td></td>
+    <td class="process">
+        Plan Quality Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Quality Management Plan, Quality Metrics, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Manage Quality
+        <span class="tooltip">
+            Inputs: Project Management Plan, Quality Metrics, Quality Control Measurements<br>
+            Outputs: Quality Reports, Test and Evaluation Documents, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Quality
+        <span class="tooltip">
+            Inputs: Project Management Plan, Quality Metrics, Quality Control Measurements<br>
+            Outputs: Quality Control Measurements, Validated Changes, Verified Deliverables, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Resource Management -->
+<tr>
+    <td>Resource Management</td>
+    <td></td>
+    <td class="process">
+        Plan Resource Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Resource Management Plan, Team Charter, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Acquire Resources
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Physical Resource Assignments, Project Team Assignments, Resource Calendars, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Develop Team
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Team Charter, Resource Calendars<br>
+            Outputs: Team Performance Assessments, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Manage Team
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Team Performance Assessments, Work Performance Reports<br>
+            Outputs: Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Resources
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Data<br>
+            Outputs: Work Performance Information, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Communication Management -->
+<tr>
+    <td>Communication Management</td>
+    <td></td>
+    <td class="process">
+        Plan Communication Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Communications Management Plan, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Manage Communications
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Reports, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Project Communications, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Monitor Communications
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Data, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Work Performance Information, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Risk Management -->
+<tr>
+    <td>Risk Management</td>
+    <td></td>
+    <td class="process">
+        Plan Risk Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan<br>
+            Outputs: Risk Management Plan
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Identify Risks
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Agreements, Procurement Documentation, Historical Information, Environmental Factors<br>
+            Outputs: Risk Register, Risk Report
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Perform Qualitative Risk Analysis
+        <span class="tooltip">
+            Inputs: Project Management Plan, Risk Register<br>
+            Outputs: Project Document Updates
+        </span>
+    </td>
+    <td class="process">
+        Perform Quantitative Risk Analysis
+        <span class="tooltip">
+            Inputs: Project Management Plan, Risk Register<br>
+            Outputs: Project Document Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Plan Risk Responses
+        <span class="tooltip">
+            Inputs: Project Management Plan, Risk Register<br>
+            Outputs: Change Requests, Project Management Plan Updates, Risk Register Updates, Risk Report Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Implement Risk Responses
+        <span class="tooltip">
+            Inputs: Project Management Plan, Risk Register<br>
+            Outputs: Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Monitor Risks
+        <span class="tooltip">
+            Inputs: Project Management Plan, Risk Register, Work Performance Data, Work Performance Reports<br>
+            Outputs: Work Performance Information, Change Requests, Project Document Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Procurement Management -->
+<tr>
+    <td>Procurement Management</td>
+    <td></td>
+    <td class="process">
+        Plan Procurement Management
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan, Project Documents, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Procurement Management Plan, Procurement Strategy, Bid Documents, Procurement Statement of Work, Source Selection Criteria, Make-or-Buy Decisions
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Conduct Procurements
+        <span class="tooltip">
+            Inputs: Project Management Plan, Procurement Documents, Seller Proposals, Project Documents, Agreements, Source Selection Criteria, Organizational Process Assets<br>
+            Outputs: Selected Sellers, Agreements, Resource Calendars, Change Requests, Project Management Plan Updates, Project Documents Updates
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="process">
+        Control Procurements
+        <span class="tooltip">
+            Inputs: Project Management Plan, Procurement Documents, Agreements, Approved Change Requests, Work Performance Data, Work Performance Reports, Project Documents<br>
+            Outputs: Work Performance Information, Change Requests, Project Management Plan Updates, Project Documents Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+<!-- Project Stakeholder Management -->
+<tr>
+    <td>Stakeholder Management</td>
+    <td class="process">
+        Identify Stakeholders
+        <span class="tooltip">
+            Inputs: Project Charter, Business Documents, Project Management Plan, Project Documents, Agreements, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Stakeholder Register
+        </span>
+    </td>
+    <td class="process">
+        Plan Stakeholder Engagement
+        <span class="tooltip">
+            Inputs: Project Charter, Project Management Plan, Project Documents, Agreements, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Stakeholder Engagement Plan
+        </span>
+    </td>
+    <td class="process">
+        Manage Stakeholder Engagement
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Change Requests, Project Management Plan Updates, Project Documents Updates
+        </span>
+    </td>
+    <td class="process">
+        Monitor Stakeholder Engagement
+        <span class="tooltip">
+            Inputs: Project Management Plan, Project Documents, Work Performance Data, Enterprise Environmental Factors, Organizational Process Assets<br>
+            Outputs: Work Performance Information, Change Requests, Project Management Plan Updates, Project Documents Updates
+        </span>
+    </td>
+    <td></td>
+</tr>
+
+        </tbody>
+    </table>
+    <script>
+        const processes = document.querySelectorAll('.process');
+        processes.forEach(process => {
+            const tooltip = process.querySelector('.tooltip');
+            
+            process.addEventListener('mouseenter', () => {
+                tooltip.style.visibility = 'visible';
+                tooltip.style.opacity = '1';
+            });
+
+            process.addEventListener('mouseleave', () => {
+                tooltip.style.visibility = 'hidden';
+                tooltip.style.opacity = '0';
+            });
+        });
+    </script>
+</body>
+</html>
